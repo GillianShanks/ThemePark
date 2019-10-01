@@ -47,7 +47,7 @@ public class RollercoasterTest {
     }
 
     @Test
-    public void checksAllowedToRide__youngAndshort() {
+    public void checksAllowedToRide__youngAndShort() {
         assertFalse(rollerCoaster.isAllowedTo(youngVisitor));
     }
 }
